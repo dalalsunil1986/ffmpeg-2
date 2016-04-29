@@ -215,7 +215,7 @@ static int reap_filters(int flush)
             }
             if (ost->finished) {
                 av_frame_unref(filtered_frame);
-                continue;
+                continue;c
             }
             switch (filter->inputs[0]->type) {
                 case AVMEDIA_TYPE_VIDEO:

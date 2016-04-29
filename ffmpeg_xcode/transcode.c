@@ -616,6 +616,13 @@ int transcode(void) {
         decoded_num++;
     }
     av_log(NULL, AV_LOG_ERROR, "transcode done.\n");
+    for (int i = 0; i < nb_input_streams; i++) {
+        InputStream *ist = input_streams[i];
+        if (ist->decoding_needed) {
+            process_input_packet(ist, NULL, 0);
+        }
+    }
+//    flush_encoders();
 //    flush_encoders();
     for (int i = 0; i < nb_output_files; i++) {
         AVFormatContext *os = output_files[i]->ctx;
