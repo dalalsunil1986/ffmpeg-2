@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "30B8E061F35A0BAA009FB841AD3DC42ACC1A3B0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "30B8E061F35A0BAA009FB841AD3DC42ACC1A3B0E" : 0,
+    "05AC6CD993F68C0709F9EF73F594686697E91EEE" : 0,
+    "8CEE2920F82777E0800DD1AD4CACD1E31E585E07" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4C43CFEC-2A10-41BA-8532-DDFA6DB8C7BA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "30B8E061F35A0BAA009FB841AD3DC42ACC1A3B0E" : "ffmpeg_xcode\/",
+    "05AC6CD993F68C0709F9EF73F594686697E91EEE" : "x264\/",
+    "8CEE2920F82777E0800DD1AD4CACD1E31E585E07" : "ffmpeg\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ffmpeg_xcode",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ffmpeg_xcode.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/git.videolan.org\/x264.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "05AC6CD993F68C0709F9EF73F594686697E91EEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wlanjie\/ffmpeg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "30B8E061F35A0BAA009FB841AD3DC42ACC1A3B0E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/source.ffmpeg.org\/ffmpeg.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8CEE2920F82777E0800DD1AD4CACD1E31E585E07"
+    }
+  ]
+}

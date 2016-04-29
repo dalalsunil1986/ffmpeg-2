@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701E24F31CCBBDDA007D8528 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 701E24F21CCBBDDA007D8528 /* main.c */; };
 		7023A14D1C7EC4B300D9A35A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A14C1C7EC4B300D9A35A /* libz.tbd */; };
 		7023A14F1C7EC4BF00D9A35A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A14E1C7EC4BF00D9A35A /* libbz2.tbd */; };
 		7023A1511C7EC4C600D9A35A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A1501C7EC4C600D9A35A /* libiconv.tbd */; };
@@ -21,9 +22,6 @@
 		7023A1661C7ECBD100D9A35A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A1651C7ECBD100D9A35A /* Security.framework */; };
 		7023A1681C7ECC6100D9A35A /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A1671C7ECC6100D9A35A /* VideoToolbox.framework */; };
 		7023A16A1C7ECC8C00D9A35A /* VideoDecodeAcceleration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7023A1691C7ECC8C00D9A35A /* VideoDecodeAcceleration.framework */; };
-		702808711CC7729800E3269B /* filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 7028086F1CC7729800E3269B /* filter.c */; };
-		702808771CC8B84D00E3269B /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 702808761CC8B84D00E3269B /* main.c */; };
-		708C5F2A1CC90170007A22AF /* ffmpeg_transcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 702808731CC8830700E3269B /* ffmpeg_transcode.c */; };
 		708C5F5D1CCA22CC007A22AF /* libavcodec.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F561CCA22CC007A22AF /* libavcodec.a */; };
 		708C5F5E1CCA22CC007A22AF /* libavdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F571CCA22CC007A22AF /* libavdevice.a */; };
 		708C5F5F1CCA22CC007A22AF /* libavfilter.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F581CCA22CC007A22AF /* libavfilter.a */; };
@@ -32,6 +30,9 @@
 		708C5F621CCA22CC007A22AF /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F5B1CCA22CC007A22AF /* libswresample.a */; };
 		708C5F631CCA22CC007A22AF /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F5C1CCA22CC007A22AF /* libswscale.a */; };
 		708C5F651CCA22D8007A22AF /* libx264.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 708C5F641CCA22D8007A22AF /* libx264.a */; };
+		70F897FC1CD34780006F082C /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 701E24E81CCB5CD8007D8528 /* compress.c */; };
+		70F897FD1CD34780006F082C /* open_files.c in Sources */ = {isa = PBXBuildFile; fileRef = 701E24EB1CCB5D40007D8528 /* open_files.c */; };
+		70F897FE1CD34780006F082C /* video_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = 701E24EF1CCBA452007D8528 /* video_filter.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		701E24E81CCB5CD8007D8528 /* compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = compress.c; sourceTree = "<group>"; };
+		701E24E91CCB5CD8007D8528 /* compress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = compress.h; sourceTree = "<group>"; };
+		701E24EB1CCB5D40007D8528 /* open_files.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = open_files.c; sourceTree = "<group>"; };
+		701E24EC1CCB5D40007D8528 /* open_files.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = open_files.h; sourceTree = "<group>"; };
+		701E24EF1CCBA452007D8528 /* video_filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = video_filter.c; sourceTree = "<group>"; };
+		701E24F01CCBA452007D8528 /* video_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = video_filter.h; sourceTree = "<group>"; };
+		701E24F21CCBBDDA007D8528 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		702361A61C7E957100D9A35A /* ffmpeg_xcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ffmpeg_xcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		7023A14C1C7EC4B300D9A35A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		7023A14E1C7EC4BF00D9A35A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -62,12 +70,6 @@
 		7023A1651C7ECBD100D9A35A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		7023A1671C7ECC6100D9A35A /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7023A1691C7ECC8C00D9A35A /* VideoDecodeAcceleration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoDecodeAcceleration.framework; path = System/Library/Frameworks/VideoDecodeAcceleration.framework; sourceTree = SDKROOT; };
-		7028086F1CC7729800E3269B /* filter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = filter.c; sourceTree = "<group>"; };
-		702808701CC7729800E3269B /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
-		702808731CC8830700E3269B /* ffmpeg_transcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ffmpeg_transcode.c; sourceTree = "<group>"; };
-		702808741CC8830700E3269B /* ffmpeg_transcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffmpeg_transcode.h; sourceTree = "<group>"; };
-		702808761CC8B84D00E3269B /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		708C5F211CC8DEF6007A22AF /* transcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transcode.c; sourceTree = "<group>"; };
 		708C5F231CC8DF1D007A22AF /* transcode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transcode.h; sourceTree = "<group>"; };
 		708C5F561CCA22CC007A22AF /* libavcodec.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavcodec.a; path = ../ffmpeg/build/lib/libavcodec.a; sourceTree = "<group>"; };
 		708C5F571CCA22CC007A22AF /* libavdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libavdevice.a; path = ../ffmpeg/build/lib/libavdevice.a; sourceTree = "<group>"; };
@@ -141,14 +143,15 @@
 		702361A81C7E957100D9A35A /* ffmpeg_xcode */ = {
 			isa = PBXGroup;
 			children = (
-				708C5F211CC8DEF6007A22AF /* transcode.c */,
-				702808761CC8B84D00E3269B /* main.c */,
 				708FC5491CB61F5300621359 /* ffmpeg.h */,
-				7028086F1CC7729800E3269B /* filter.c */,
-				702808701CC7729800E3269B /* filter.h */,
-				702808731CC8830700E3269B /* ffmpeg_transcode.c */,
-				702808741CC8830700E3269B /* ffmpeg_transcode.h */,
 				708C5F231CC8DF1D007A22AF /* transcode.h */,
+				701E24E81CCB5CD8007D8528 /* compress.c */,
+				701E24E91CCB5CD8007D8528 /* compress.h */,
+				701E24EB1CCB5D40007D8528 /* open_files.c */,
+				701E24EC1CCB5D40007D8528 /* open_files.h */,
+				701E24EF1CCBA452007D8528 /* video_filter.c */,
+				701E24F01CCBA452007D8528 /* video_filter.h */,
+				701E24F21CCBBDDA007D8528 /* main.c */,
 			);
 			path = ffmpeg_xcode;
 			sourceTree = "<group>";
@@ -251,9 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708C5F2A1CC90170007A22AF /* ffmpeg_transcode.c in Sources */,
-				702808711CC7729800E3269B /* filter.c in Sources */,
-				702808771CC8B84D00E3269B /* main.c in Sources */,
+				70F897FC1CD34780006F082C /* compress.c in Sources */,
+				70F897FD1CD34780006F082C /* open_files.c in Sources */,
+				70F897FE1CD34780006F082C /* video_filter.c in Sources */,
+				701E24F31CCBBDDA007D8528 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
